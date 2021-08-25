@@ -1,0 +1,26 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 0;
+  background-color: palevioletred;
+}
+
+li:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+li {
+  padding: 1em;
+  width: 30%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
